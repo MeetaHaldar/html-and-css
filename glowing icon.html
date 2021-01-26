@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing icon with hover effect</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+ *{
+     margin: 0;
+     padding: 0;
+     align-items: center;
+ }
+ body{
+    align-items: center;
+    background-color: black;
+    max-width: 100%;
+ }
+ .wrapper{
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+   
+ }
+ .wrapper ul{
+    list-style: none;
+
+ }
+ .wrapper ul li{
+     width: 75px;
+     height: 75px;
+ text-align: center;
+ cursor: pointer;
+     float: left;
+     line-height: 1.5em;
+     margin: 4px;
+     border: solid 5px rgb(224, 206, 206);
+     border-radius: 50%;
+     text-shadow: 0 0 1px;
+  
+
+ }
+.fa{
+    color: white;
+}
+
+ .wrapper li i{
+    padding: 15px;
+     margin: 4px;
+ }
+  .wrapper ul li:hover:nth-child(1){
+     border: 4px solid #3b5998;
+     box-shadow: 0 0 15px #3b5998;
+     transition: all 0.5 ease;
+     background-color: blanchedalmond;
+ 
+ }
+ .wrapper ul li:hover .fa-facebook{
+     color:#3b5998 ;
+     text-shadow: 0 0 12px #3b5998;
+
+ }
+ .wrapper ul li:hover:nth-child(2){
+     border: 4px solid #55acee;
+     box-shadow: 0 0 15px #55acee;
+     transition: all 0.5 ease;
+     background-color: blanchedalmond;
+ 
+ }
+ .wrapper ul li:hover .fa-twitter{
+     color:#55acee ;
+     text-shadow: 0 0 12px #55acee;
+
+ }
+ .wrapper ul li:hover:nth-child(3){
+     border: 4px solid #bc2a8d;
+     box-shadow: 0 0 15px #bc2a8d;
+     transition: all 0.5 ease;
+     background-color: blanchedalmond;
+ 
+ }
+ .wrapper ul li:hover .fa-instagram{
+     color:#bc2a8d ;
+     text-shadow: 0 0 12px #bc2a8d ;
+
+ }
+ .wrapper ul li:hover:nth-child(4){
+     border: 4px solid #43d854;
+     box-shadow: 0 0 15px #43d854;
+     transition: all 0.5 ease;
+     background-color: blanchedalmond;
+ }
+ .wrapper ul li:hover .fa-whatsapp{
+     color:#43d854 ;
+     text-shadow: 0 0 12px #43d854;
+
+ }
+ .wrapper ul li:hover:nth-child(5){
+     border: 4px solid #4285F4;
+     box-shadow: 0 0 15px #4285F4;
+     transition: all 0.5 ease;
+     background-color: blanchedalmond;
+ 
+ }
+ .wrapper ul li:hover .fa-google{
+     color:#4285F4 ;
+     text-shadow: 0 0 12px #4285F4;
+
+ }
+ h1{
+     margin-bottom: 30px;
+     text-align: center;
+     color: tomato;
+     font-weight: 300;
+     font-size: 35px;
+   border: 3px solid ;     
+   box-shadow: 0 0 14px;
+   cursor: pointer;
+   text-shadow: 0 0 4px ;
+ }
+ 
+
+ 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>
+            social meadia links
+        </h1>
+        <ul>
+        <li><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+        <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+        <li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+        <li><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+
+</body>
+</html>
